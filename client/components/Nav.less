@@ -1,0 +1,24 @@
+/* Nav */
+
+:local(.base) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+}
+
+:local(.item) {
+	border-bottom: solid 2px transparent;
+	padding-bottom: 3px;
+	color: #333;
+	cursor: pointer;
+
+	&.active {
+		border-bottom: solid 2px currentColor;
+		color: #223e6e;
+	}
+
+	&:first-child {
+		margin-right: 10px;
+	}
+}

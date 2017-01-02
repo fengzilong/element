@@ -1,0 +1,19 @@
+:local(.base) {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+:local(.color) {
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	margin-left: -2px;
+	transition: transform .1s ease;
+	cursor: pointer;
+
+	&:hover {
+		transform: scale(1.4);
+	}
+}

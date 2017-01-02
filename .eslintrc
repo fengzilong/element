@@ -1,0 +1,7 @@
+{
+    "extends": "mo/electron",
+    "globals": {
+        "Regular": true,
+        "Element": true
+    }
+}
