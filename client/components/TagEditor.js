@@ -5,12 +5,15 @@ export default Regular.extend( {
 	template: `
 		<Flex vertical>
 			<Input placeholder="width"></Input>
+
 			<Input placeholder="height"></Input>
-			<RadioGroup>
-				<RadioButton>启用</RadioButton>
-				<RadioButton>不启用</RadioButton>
+
+			<RadioGroup checked="0">
+				<RadioButton value="0">启用</RadioButton>
+				<RadioButton value="1">不启用</RadioButton>
 			</RadioGroup>
-			<Button>应用</Button>
+
+			<Button primary>应用</Button>
 		</Flex>
 	`,
 } )

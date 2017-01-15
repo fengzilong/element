@@ -8,8 +8,10 @@ export default Regular.extend( {
 			<Flex auto>
 				<ComponentPreview></ComponentPreview>
 			</Flex>
-			<Flex width="290px">
-				<ComponentEditor></ComponentEditor>
+			<Flex width="260px">
+				<div style="padding: 15px;width: 100%;border-left: solid 1px #f2f2f2">
+					<ComponentEditor></ComponentEditor>
+				</div>
 			</Flex>
 		</Flex>
 	`,
