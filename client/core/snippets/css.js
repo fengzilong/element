@@ -1,6 +1,6 @@
 export default {
-	// TODO: 多行文字截断
-	multiLineEllipsis( line ) {
+	// TODO: 文字截断
+	ellipsis( line ) {
 		return `${ line }`;
 	},
 };

@@ -1,26 +1,22 @@
-import Titlebar from './Titlebar';
-import Main from './Main';
-import Toolbar from './Toolbar';
-import Flex from '../components/Flex';
+import Sidebar from './Sidebar'
+import Flex from '../components/Flex'
 
 export default Regular.extend( {
 	getters: {
 	},
 	template: `
-		<Flex vertical>
-			<Titlebar></Titlebar>
+		<Flex>
+			<Sidebar></Sidebar>
 
 			<Flex auto>
-				<Main></Main>
+				<div style="padding: 20px;">
+					content
+				</div>
 			</Flex>
-
-			<Toolbar></Toolbar>
 		</Flex>
 	`,
 } )
 .component( {
-	Titlebar,
-	Main,
-	Toolbar,
+	Sidebar,
 	Flex,
-} );
+} )

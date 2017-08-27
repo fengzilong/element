@@ -21,7 +21,7 @@ module.exports = function () {
 		frame: false,
 		// resizable: false,
 		center: true,
-		titleBarStyle: 'hidden',
+		// titleBarStyle: 'hidden',
 		// backgroundColor: '#FFF',
 		// skipTaskbar: true,
 	} );
